@@ -1,0 +1,392 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@charset"uft-8";
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+body{
+    min-width: 1000px;
+    font-family: 'Noto sans KR',sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+#wrap{
+    width: 100%;
+}
+
+/*header*/
+
+#header{}
+.headerTop{
+    background: #282828;
+    height: 40px;
+    line-height: 40px;
+}
+.headerTop a{
+    color: #fff;
+    font-size: 11px;
+}
+.headerTop .engbtn{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-left: 1px solid #231f20;
+    border-right: 1px solid #231f20;
+}
+.headerTop .engbtn a{
+    display: block;
+}
+.headerTop .tnbwrap{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.headerTop .tnbwrap ul li{
+    display: block;
+    float: left;
+}
+.headerTop .tnbwrap ul li a{
+    display: block;
+    padding: 0 15px;
+    border-left: 1px solid #231f20;
+}
+.headerIn{
+    padding:  30px 0;
+}
+.headerIn h1{
+     width:150px;
+    position: absolute;
+}
+.headerIn h1 img{
+    width:150px;
+}
+.headerIn .gnb{
+    float:  right;
+    display: inline-block;
+    width: 850px;
+    font-size: 0;
+}
+.headerIn .gnb ul{
+    
+}
+.headerIn .gnb ul li{
+    padding-left: 30px;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+}
+.headerIn .gnb ul li a{
+    height: 48px;
+    line-height: 48px;
+    display: block;
+    color: #000;
+}
+.headerIn .gnb ul li a span{
+    display: block;
+}
+
+/*mainSlider*/
+
+.mainSlider{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+.mainSlider a{}
+.mainSlider a img{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    
+}
+.mainSlider .button{
+    left: 50%;
+    position: absolute;
+    margin-left: -8px;
+    bottom: 20px;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+.mainSlider .button span{
+    
+}
+
+/*sect01*/
+
+.sect01{
+  
+    background: #f5f5f5;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.sect01 .lbox{
+    
+    border-right: 1px solid #ddd;
+}
+.sect01 .lbox h2{
+    font-size: 30px;
+    color: #711b04;
+}
+.sect01 .lbox p{
+    margin-top: 30px;
+    color: #464646;
+}
+
+.sect01 .lbox,.sect01 .rbox{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+.sect01 .rbox{
+    color: #464646;
+    line-height: 30px;
+    font-size: 14px;
+}
+.sect01 .rbox p{}
+.sect01 .rbox a{}
+.sect01 .rbox a img{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+/*sect02*/
+
+.sect02{
+    background: url(../images/main/visual01.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.sect02 .box1{}
+.sect02 .box1 h2{
+    font-size: 30px;
+}
+.sect02 .box1 h2:after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background: #fff;
+    margin: 15px auto;
+}
+.sect02 .box1 p{}
+.sect02 .box2 p{
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.sect02 .box2 a{}
+.sect02 .box2 a img{
+    width: 40px;
+    height: 40px;
+    margin-top: 70px;
+}
+
+/*sect03*/
+
+.sect03{
+    text-align: center;
+    padding: 70px 0;
+
+}
+.sect03 h2{
+    color: #711b04;
+}
+.sect03 p{
+    color: #464646;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+.menuList{
+    
+}
+.menuList .box{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.menuList .box span{
+    color:#7d645a;
+    font-size: 15px;
+    
+}
+.menuList .box p{
+    color: #464646;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.menuList .m01,.menuList .m02,.menuList .m03,.menuList .m04,.menuList .m05{
+    overflow: hidden;
+     position: relative;
+    background: #f7f7f7;
+    float: left;
+    height: 250px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+
+.menuList .m01 a img,.menuList .m02 a img,.menuList .m03 a img,.menuList .m04 a img,.menuList .m05 a img{
+    position: absolute;
+    left: 50%;
+    margin-left: -239px;
+}
+.menuList .m01{
+    width:400px;
+    height:502px;
+    margin-left: 0;
+}
+.menuList .m02{
+    width: 248px;
+}
+.menuList .m03{
+  width: 348px;
+}
+.menuList .m04{
+   width: 348px;
+}
+.menuList .m02 a img,.menuList .m05 a img{
+ margin-left: -119px;
+}
+.menuList .m05{
+   width: 248px;
+}
+
+/*sect04*/
+
+.sect04{
+    background: url(../images/main/visual02.jpg)no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 170px 0 0;
+}
+.sect04 h2{
+    font-size: 30px;
+}
+.sect04 h2:after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background: #fff;
+    margin: 15px auto;
+}
+.sect04 span{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sect04 p{
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 15px;
+}
+.sect04 a{
+    
+}
+.sect04 img{
+    width: 280px;
+    margin-top: 30px;
+    padding-bottom: 148px;
+   
+}
+
+/*sect05*/
+
+.sect05{
+    height: 105px;
+    background: #beb4af;
+    color: #fff;
+    padding: 65px 0 0;
+}
+.sect05 .box{
+    width: 700px;
+}
+.sect05 .box h2{
+    float: left;
+    font-size: 30px;
+    line-height: 40px;
+}
+.sect05 .box span{
+    float: right;
+    width: 380px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.sect05 .box a{
+  position: absolute;
+    right: 0;
+}
+.sect05 .box a img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+/*sect06*/
+
+.sect06{
+    background: url(../images/main/bg_visual.jpg)no-repeat;
+}
+
+.partnerhistory{
+    padding: 100px 0;
+   
+}
+.partnerhistory .Box1{
+     
+}
+.partnerhistory .Box1 li{
+    
+}
+.partnerhistory .Box1 img{
+    width: 25px;
+    height: 25px;
+}
+.partnerhistory .Box1 span{}
+.partnerhistory .Box1 p{}
+
+.partnerhistory .Box2{}
+.partnerhistory .Box2 li{}
+.partnerhistory .Box2 img{
+     width: 25px;
+    height: 25px;
+}
+.partnerhistory .Box2 span{}
+.partnerhistory .Box2 p{}
+
+.partnerhistory .Box3{}
+.partnerhistory .Box3 li{}
+.partnerhistory .Box3 img{
+     width: 25px;
+    height: 25px;
+}
+.partnerhistory .Box3 span{}
+.partnerhistory .Box3 p{}
